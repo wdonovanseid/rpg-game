@@ -4,12 +4,16 @@ export function attacking(protag, monster) {
     endFight();
   } else {
     protag.hp -= monster.attack;
+    endTurn();
   }
-  endTurn()
 }
 
 export function defending(protag, monster) {
   protag.hp -= monster.attack / 2;
+  if (protag.hp < 0) {
+    protag.hp = 1;
+  }
+  endTurn();
 }
 
 export function runAway() {
@@ -19,4 +23,12 @@ export function runAway() {
   } else {
     endTurn();
   }
+}
+
+function endFight() {
+
+}
+
+function endTurn() {
+  
 }

@@ -1,4 +1,4 @@
-export default class Character() {
+export default class Character {
   constructor(name){
     this.name = name;
     this.hp = 50;
@@ -15,21 +15,7 @@ export default class Character() {
     }
   }
 
-  attack(){
-  
-  }
-
   addToInventory(item){
     this.stuff.push(item);
   }
-
-  checkDead(){
-  if(this.hp = 0) {
-    console.log("Ouch, you are now dead!");
-    $("#game").hide();
-    $("#gameover").show();
-  }
 }
-
-}
-
