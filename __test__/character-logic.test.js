@@ -1,4 +1,4 @@
-import Character from './../src/js/character-logic.js';
+import Character from '../src/js/character-logic.js';
 
 describe('Character', () => {
   let char;

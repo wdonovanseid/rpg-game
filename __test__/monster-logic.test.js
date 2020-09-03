@@ -1,4 +1,4 @@
-import Monster from './../src/js/monster-logic.js';
+import {Monster} from './../src/js/monster-logic.js';
 
 describe('Monster', () => {
   test('should create a level one monster', () => {

@@ -1,4 +1,4 @@
-export default class Monster {
+export class Monster {
   constructor(name,hp,attack,lvl,exp,stuff) {
     this.name = name;
     this.hp = hp;
@@ -6,6 +6,7 @@ export default class Monster {
     this.lvl = lvl;
     this.exp = exp;
     this.stuff = stuff;
+    this.id = 1;
   }
   
 }

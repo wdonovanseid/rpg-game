@@ -6,6 +6,7 @@ export default class Character {
     this.lvl = 1;
     this.exp = 0;
     this.stuff = [];
+    this.id = 0;
   }
   levelUp(){
     if (this.exp >= 100) {
