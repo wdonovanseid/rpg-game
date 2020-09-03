@@ -11,13 +11,12 @@ export class Battle {
   }
 
   runAway() {
-    //let chance =  Math.ceil(math.random * 10);//this is the actual code.
+    let chance =  Math.ceil(Math.random() * 10);//this is the actual code.
     //let chance = 7; //use this to test logic
-    let chance = 3; //use this to test logic
+    //let chance = 3; //use this to test logic
     if (chance >= 5) {
       this.endBattle = true;
     } else {
-      
       this.protag.hp -= this.monster.attack;
     }
   }

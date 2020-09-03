@@ -14,7 +14,8 @@ describe('Battle', () => {
   });
 
   test('should create a battle object with the character and monster inside',() => {
-    expect(battle).toHaveProperty('{"endBattle": false, "monster": {"attack": 3, "exp": 10, "hp": 20, "id": 1, "lvl": 1, "name": "Wolf", "stuff": ["wolf tooth", "wolf hide"]}, "protag": {"attack": 5, "exp": 0, "hp": 50, "id": 0, "lvl": 1, "name": "Rocky", "stuff": []}}');
+    expect(battle.monster).toBe(wolf);
+    expect(battle.protag).toBe(protag);
   });
 
   test('should reduce character hp by monsters attack and vice versa', () => {

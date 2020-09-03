@@ -7,12 +7,34 @@
     <h1>RPG</h1>
   </div>
   <div class="container">
-    <form id="userName">
-      <div class="card">
-        
+    <div id="game">
+      <form id="character">
+        <div class="form-group">
+          <label for="name">What is your characters name?</label>
+          <input type="text"  class="form-control" id="name">
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="card" id="monster">
+        <span id="monster-img"></span>
+        <p><span id="monster-name"></span></p>
       </div>
-      <button type="submit">Submit</button>
-    </form>
+      <div class="card" id="hero-img"></div>
+      <button type="btn" class="btn btn-success" id="attack">Attack</button>
+      <button type="btn" class="btn btn-warning" id="runaway">Run Away</button>
+      <div class="card" id="stats">
+        <p>Name: <span id="char-name"></span></p>
+        <p>HP: <span id="char-hp"></span></p>
+        <p>Inventory: <span id="char-inventory"></span></p>
+      </div>
+      <div class="card">
+        <button type="btn" class="btn btn-info" id="explore">Explore</button>
+      </div>
+    </div>
+    <div class="card" id="gameover">
+      <p>You died!</p>
+    </div>
+
   </div>
 </body>
 </html>

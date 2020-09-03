@@ -1,3 +1,5 @@
+import heroPic from './../assets/images/hero.jpg';
+
 export default class Character {
   constructor(name){
     this.name = name;
@@ -6,13 +8,14 @@ export default class Character {
     this.lvl = 1;
     this.exp = 0;
     this.stuff = [];
-    this.id = 0;
+    this.img = heroPic;
   }
   levelUp(){
     if (this.exp >= 100) {
       this.exp -= 100;
       this.lvl += 1;
       this.attack += 2;
+      this.hp = 50;
     }
   }
 
