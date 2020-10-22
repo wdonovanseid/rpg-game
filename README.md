@@ -11,10 +11,7 @@ _This is an Epicodus Exercise in practicing using Jest and implementing ES6 feat
 ## Setup/Installation Requirements
 
 * _Copy Repository_
-* _
-* __
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Open "index.html" in your web browser
 
 ## Known Bugs
 
@@ -26,7 +23,9 @@ _If there are any questions or concerns, feel free to contact us at ophelia.swen
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_JavaScript_
+_CSS_
+_HTML_
 
 ### License
 
